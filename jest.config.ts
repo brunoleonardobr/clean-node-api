@@ -1,4 +1,5 @@
 export default {
+  preset: 'ts-jest',
   roots: ['<rootDir>/src'],
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],

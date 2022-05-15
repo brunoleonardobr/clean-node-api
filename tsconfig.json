@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "module": "CommonJS",
-    "target": "ES2019",
-    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "allowJs": true,
-    "strict": true,
-    "noImplicitAny": false,
-    "strictNullChecks": true
-  }
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "rootDir": "src",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
